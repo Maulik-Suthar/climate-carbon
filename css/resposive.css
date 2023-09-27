@@ -1,0 +1,608 @@
+/* css only for hover effect all hover effect must write in this Media query */
+@media only screen and (max-width: 1920px) {
+
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+}
+
+
+
+@media only screen and (max-width: 1660px) {
+
+}
+
+
+@media only screen and (min-width: 768px) {
+
+}
+
+
+@media only screen and (max-width: 1599px) {
+
+/*---Calculator---*/
+.formDesc {font-size: 1.8rem;}	
+.value_column .label span, .range_column .label span {font-size: 1.5rem;}
+.chartDescription p {font-size: 10px;}
+
+.rangesliderMain .ui-slider .ui-slider-handle {border: 0; width: 20px; height: 20px;}
+.rangesliderMain .ui-slider .ui-slider-handle:hover {border:0;}
+
+.rangesliderMain .ui-slider .ui-slider-handle:before {border-width: 1px; right: 6px; top: 8px; width: 5px; height: 5px;}
+.rangesliderMain .ui-slider .ui-slider-handle:after {border-width: 1px; left: 6px; top: 8px; width: 5px; height: 5px;}
+
+}
+
+
+
+@media only screen and (max-width: 1366px) {
+
+
+}
+
+@media only screen and (max-width: 1280px) {
+
+}
+
+ 
+
+/* common css for below screen 1199 */
+
+@media only screen and (max-width: 1199px) {
+
+p{font-size: 2rem;}
+.sticky_header{padding-top: 4rem;}
+
+.reducInner ul li {padding: 0 2.2rem;}
+.fightCon {padding: 0 2rem 0 1rem;}
+.whatActInner {padding:0;}
+
+/*---footer sec---*/
+.socialMeadia a{font-size: 2.2rem;}
+.socialMeadia a .icon{line-height: 2.2;}
+
+/*---footer sec---*/
+
+/*---cmsCon---*/
+.cmsCon p{font-size: 2rem;}
+.cmsCon b{font-size: 2.2rem;}
+.cmsCon ul li{font-size: 2rem;}
+.cmsCon ol li{font-size: 2rem;}
+/*---cmsCon---*/
+
+/*---aboutus---*/
+.profile_name span {font-size: 2rem;}
+.testiDetail p {font-size: 2rem;}
+/*---aboutus---*/
+
+/*---Package---*/
+.projectlist li:nth-child(3) .projectImg, .projectlist li:nth-child(7) .projectImg {padding-bottom: 61rem;}
+/*---Package---*/
+
+/*---Total-household-footprint---*/
+.cmsCon ul li:before {width: 1.8rem; height: 1.8rem;}
+.productNav ul li a.nav-link {font-size: 2rem;}
+/*---Total-household-footprint---*/
+
+/*---Contact-us---*/
+.googlemap iframe {height: 100%; min-height: 60rem;}
+/*---Contact-us---*/
+
+}
+
+
+/* common css for below screen 991 */
+
+@media only screen and (max-width: 991px) {
+html{font-size: 0.677vw}
+p{font-size: 2rem;}
+.commonSec{padding: 5rem 0;}
+.sticky_header{padding-top: 3.8rem;}	
+
+/*---Header start---*/
+.headnav ul li {font-size: 10px;}
+.menuMain li{padding: 0 1.5rem; font-size: 11px;}
+.myAccount .dropdown-toggle {font-size: 14px;}
+.headCart {font-size: 15px;}
+.count {width: 10px; height: 10px; font-size: 7px; line-height: 1.4;}
+/*---Header start---*/
+
+.bannerDetails {top: 70px;}
+.bannerTitle {font-size: 4rem;}
+.bannerTitle span {display: block; font-size: 7rem;}
+
+.ourserviceSec {margin-top: 0; padding-top: 5rem;}
+.save_nature_title {right: -1.7rem; font-size: 9rem;}
+
+.logobox .logo {padding-bottom: 41px;}
+
+/*---footer sec---*/
+.footerMain .footBox .footCon ul li a{font-size: 1.8rem;}
+.footerMain .footBox .footCon .footContact{font-size: 1.8rem;}
+.footerMain .footBox .footCon .footContact .icon{font-size: 2.1rem;}
+.socialMeadia a .icon{line-height: 1.8;}
+.socialMeadia a{font-size: 2rem;}
+.socialMeadia a .icon{line-height: 2.5;}
+/*---footer sec---*/
+
+/*---error---*/
+.commonboxcon .commontitle{font-size: 3rem;}
+.commonboxcon p{font-size: 14px;}
+.commonboxcon .btn-back{font-size: 16px;}
+/*---error---*/
+
+.planetSec {padding: 10rem 0;}
+
+/*---Buy-carbon-offset---*/
+.buycarbonoffsetSec {padding: 8.1rem 0 3.3rem;}
+/*---Buy-carbon-offset---*/
+
+}
+
+
+
+/* common css for below screen 767 */
+
+@media only screen and (max-width: 767px) {
+	
+html{font-size: 5px;}	
+p{font-size: 14px;}
+.container{max-width: 100%;}
+.btn{font-size: 14px;padding: 10px 20px;}
+.container{padding: 0 14px;}
+.commonSec{padding: 30px 0;}
+.sticky_header{padding-top: 71px;}
+
+.slick-dots li button{width: 10px;height: 10px;}
+.slick-dots li.slick-active button:before{width: 6px;height: 6px;}
+
+/*---Header---*/
+
+.menuIcon { display: inline-block; vertical-align: middle;}
+.m_menuLogo{display: block;width: 100%;padding: 20px 15px 20px;border-bottom: 1px solid #020202;
+background: #333;display: block;width: 100%;}
+.headerMain .m_menuLogo .menuLogo{max-width: 160px; display: block;margin: auto;}
+.headerMain .m_menuLogo .menuLogo img{margin: auto;}
+.m_menuLogo .closeMenu { position: absolute; right: 0; top: 0; width: 30px; height: 30px; padding: 6px;}
+.m_menuLogo .closeMenu:before { content: ''; width: 22px; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: #fff; -webkit-transform: rotate(45deg); transform: rotate(45deg); margin: auto; bottom: 0;}
+.m_menuLogo .closeMenu:after { content: ''; width: 22px; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: #fff; -webkit-transform: rotate(-45deg); transform: rotate(-45deg); margin: auto; bottom: 0;}
+.navigationBar { position: fixed; width: 300px; top: 0; bottom: 0; left: -320px; background: #fff; transition: all .6s ease-in-out; margin: 0; z-index: 9999; overflow-y: auto;}
+.navigationBar.slideMenu{left: 0;}
+
+/*.navigationBarone { position: fixed; width: 300px; top: 0; bottom: 0; left: -320px; background: #fff; transition: all .6s ease-in-out; margin: 0; z-index: 9999; overflow-y: auto;}
+.navigationBarone.slideMenu{left: 0;}*/
+.menuMain{width: 100%;margin-bottom: 2rem;}
+.menuMain li{width: 100%; display: block; border-bottom: 1px solid #e2e2e2; padding:0; margin:0; position: relative;}
+.menuMain li a{display: block; width: 100%; padding: 10px 15px; text-align: left;}
+.menuMain > ul > li > a{ font-size: 14px; font-weight: 500;color: #000;}
+
+.navigationBar .menuMain > ul li{position: relative;}
+
+.navigationBar .menuMain>ul>li>a {font-size: 16px; border: none; padding: 10px 15px; text-align: left;}
+.navigationBar .menuMain>ul>li>a.active {color: #0a71b8;}
+.navigationBar .menuMain>ul li {position: relative;}
+.navigationBar .menuMain>ul li .arrow {position: absolute; right: 0; top: 0; width: 32px; height: 42px; z-index: 999; transform: none; bottom: inherit;
+border:none;}
+.menuMain > ul > li:not(.megaMenu) .sub-menu li a{border: none;padding: 10px 15px;font-size: 14px;}
+
+.navigationBar .menuMain>ul li .arrow:before {content: ""; position: absolute; left: 0; right: 10px; top: -2px; bottom: 0; width: 10px;
+height: 10px; border-bottom: 1px solid #000; border-right: 1px solid #000; transform: rotate(-45deg); margin: auto; transition: all .4s ease-in-out;}
+.navigationBar .menuMain>ul li .arrow.minus:before {transform: rotate(45deg);}
+.navigationBar .menuMain>ul>li ul {display: none; padding: 0!important; position: static!important;
+transform: none!important; left: inherit!important; top: inherit!important; width: auto!important; box-shadow: none!important; opacity: 1!important;
+visibility: visible!important; transition: none!important;}
+
+.navigationBar .menuMain>ul>li ul li:last-child {border-bottom:0;}
+.navigationBar .menuMain>ul>li>ul>li>a {font-weight: 500; font-size: 14px; text-align: left;}
+.navigationBar .menuMain>ul>li>ul>li>ul {padding-left:15px;}
+.navigationBar .menuMain>ul>li>ul>li>ul>li>a {padding-left: 0;}
+
+.navigationBar .menuMain>ul li .arrow{display: block;}
+.headerMain .siteLogo img{width: 110px;}
+
+.headnav {display: none;}
+
+.myAccount .dropdown-toggle {font-size: 20px; padding-right: 15px;}
+.myAccount .dropdown-toggle:after {width: 8px; height: 8px; right:0; border-width: 2px;}
+.count {width: 15px; height: 15px; font-size: 10px; line-height: 15px; font-weight: 500; left: 16px; top: 4px;}
+.headCart {font-size: 22px; padding: 10px 0rem 6px 10px;}
+
+.headerow .joinBtn, .headerow .calculateBtn{display: none;}
+
+/*---Header---*/
+
+.bannerSec {padding-bottom: 360px;}
+.bannerCaption {max-width: 100%; padding: 20px 0 40px;}
+.bannerDetails {top:50px;}
+.bannerTitle {font-size: 18px;}
+.bannerTitle span {display: block; font-size: 35px;}
+.bannerDescription {font-size: 16px;}
+.bannerCaption .btn {padding: 10px 20px; font-size: 14px;}
+
+.get_started_Sec {width: 100%; border-radius: 5px;}
+.getTitle {font-size: 20px;}
+.get_started_Sec .btn {padding: 12px 20px;}
+.formFooter p {font-size: 14px; line-height: 1.5;}
+.formFooter p span {font-size: 16px;}
+
+.formcol {margin-bottom: 15px;}
+.formcol .formlabel {font-size: 15px;}
+.inputformField {font-size: 14px; padding: 10px 15px;}
+.custom_drop {background-size: 15px; background-position: right 14px center;}
+
+.reducInner {padding: 0;}
+.secHead .secBigTitle {font-size: 22px;}
+.SaveNatureBottomImg, .save_nature_title {display: none;}
+.reductTitle{font-size: 20px;}
+.titlereduce {font-size: 16px; font-weight: 500;}
+.serviceTitle {font-size: 16px;}
+.fightImg {border-radius: 5px;}
+
+.serviceList {white-space: nowrap; overflow: auto; padding: 22px 0;}
+.serviceList li {width: 34.3%; vertical-align: top;}
+.servicesBox {white-space: normal; min-height: 200px;}
+.servIcon {height: 7.5rem;}
+
+.secHead .secTitle {font-size: 22px;}
+.fightCon .btn, .SaveNatureCon .btn, .whatActBox .btn {margin-top: 10px; font-size: 14px; padding: 10px 20px;}
+
+.whatActBox {padding:30px 20px;}
+.whatActBox .secHead .secTitle {font-size: 22px;}
+.whatActBox p {font-size: 14px;}
+.whatActBox:after {display: none;}
+
+.latestnews_caption {padding: 20px;}
+.latestTitle {font-size: 18px;}
+.latest_category, .latestDate {font-size: 14px;}
+
+.slick-dots li button {border-width: 2px;}
+
+
+/*---footer sec---*/
+.footerTop {padding: 20px 0;}
+.footerTop:before {height: 1px;}
+.footerTop:after {bottom: 1px; height: 1px;}
+.footerMain .footersec{padding: 20px 0;}
+.siteinfocol{display: none;}
+.footerMain .footBox .footLogo{display: none;}
+.contact_col{padding-left: 0;}
+.copyrightsec .copyright{font-size: 14px;font-weight: 400;line-height: 1.4;margin-bottom: 2px;float: none;display: block;}
+.copyrightsec .powerdBy{font-size: 14px;line-height: 1.4;font-weight: 400;float: none;}
+.copyrightsec .powerdBy a{width: 27px;}
+
+.footerMain .footBox .footTitle {font-size: 16px; margin-bottom: 10px;}
+.footerMain .footBox .footCon ul li a{font-size: 14px;font-weight: 400;}
+.footCon{margin-bottom: 5px;}
+.footerMain .footBox .footCon ul li{margin-bottom: 12px;}
+.footerMain .footBox .footCon .footContact{font-size: 14px;font-weight: 400;padding-left: 22px;margin-bottom: 12px;}
+.footerMain .footBox .footCon .footContact .icon{font-size: 16px;}
+
+.socialMeadia a{width: 30px;height: 30px;font-size: 16px;margin-right: 1.4rem;}
+.socialMeadia a .icon{line-height: 2.2;}
+.FooterSocial{margin-top: 15px;}
+.footerMain .footBox .footLogo{max-width: 100%;margin: inherit;}
+.socialMeadia{display: block;text-align: left;}
+.footBox.footCleanImg{margin-top: 20px;}
+.fotclimgbox{padding-bottom: inherit;padding: 12px;display: inline-block;}
+.fotclimgbox img{position: static;margin: 0;}
+.Newsletter_sl input {min-height: 35px; font-size: 14px;}
+.Newsletter_sl button {padding: 8px 20px; font-size: 14px;}
+
+/*---footer sec---*/
+.m_footCont {display: block;position: fixed;bottom: 0;left: 0;right: 0;background: #EC9424;z-index: 999;box-shadow: 0 0 5px 0px rgb(0 0 0 / 50%);text-align: center;}
+.m_footCont a {font-size: 14px;color: #fff;line-height: 22px;padding: 10px;font-weight: 600;text-align: center;display: block;text-transform: uppercase;
+padding: 10px 15px;}
+.m_footCont a .icon {font-size: 18px;line-height: 1;vertical-align: middle;margin-right: 4px;}
+
+/*---cmsCon---*/
+
+.cmsCon p{font-size: 14px;}
+.cmsCon b{font-size: 14px;}
+.cmsCon ul li{font-size: 14px;margin-bottom:10px; padding-left: 24px;}
+
+.cmsCon ol li{font-size: 14px;}
+.cmsCon ul li:before{top: 1.5rem;width: 1rem;height: 1rem;}
+.cmsCon .alignleft{max-width: 100%;float: none;margin: auto;margin-bottom: 2rem;}
+.cmsCon .alignright{max-width: 100%;float: none;margin: auto;margin-bottom: 2rem;}
+.cmsCon .aligncenter{margin-bottom: 2rem;}
+.cmsCon ul li:before{width: 16px;height: 16px;top: 1px;}
+
+/*---cmsCon---*/
+
+/*---error---*/
+.commonboximg{max-width: 100%;}
+.commonboxcon .commontitle{font-size: 18px;}
+.commonboxcon p{font-size: 14px;}
+/*---error---*/
+
+/*---thank-u---*/
+.thankuSec .commonboximg{max-width: 12rem;}
+.thankuSec .commonboxcon p{font-size: 14px;}
+/*---thank-u---*/
+
+/*---aboutus---*/
+.bannheadcon .banheadtitle {font-size: 24px;}
+.breadcrumbmain {display: none;}
+.ourmissionSec .secHead .secBigTitle {font-size: 22px;}
+.profileImg {width: 100px; height: 100px;}
+.profile_name {font-size: 16px;}
+.profile_name span {font-size: 14px;}
+.testiDetail p {font-size: 14px;}
+/*---aboutus---*/
+
+/*---Package---*/
+.packageSec .servicesBox {box-shadow: 0px 4px 10px 2px rgb(0 0 0 / 6%); border: 1px solid #f9f9f9; min-height: 180px;}
+.packageSec .serviceList {white-space: normal; padding: 0;}
+.packageSec .serviceList li {width: 50%; margin-bottom: 15px;}
+/*---Package---*/
+
+/*---Projects---*/
+.projectlist li {width: 50%;}
+.projectImg {padding-bottom: 220px;}
+.projectCat {font-size: 16px;}
+.projectTitle, .projectlist li:nth-child(7) .projectTitle {font-size: 16px; font-weight: 600; height: 48px; overflow: hidden;}
+
+.projectlist li:nth-child(3) .projectImg, .projectlist li:nth-child(7) .projectImg {padding-bottom: 220px;}
+.projectlist li:nth-child(3) .projectDetails, .projectlist li:nth-child(7) .projectDetails {position: static; background: #f5f5f5;}
+.projectlist li:nth-child(3) .projectCat, .projectlist li:nth-child(7) .projectCat {color: #83B74D;}
+.projectlist li:nth-child(3) .projectTitle, .projectlist li:nth-child(7) .projectTitle, 
+.projectlist li:nth-child(3) .projectDesc, .projectlist li:nth-child(7) .projectDesc{color: #000;}
+
+.projectlist li:nth-child(7) {width: 50%;}
+.projectlist li:nth-child(3) .projectImg:after, .projectlist li:nth-child(7) .projectImg:after {display: none;}
+/*---Projects---*/
+
+/*---Calculator---*/
+.calctopTitle, .calclink, .formTitle {font-size: 14px;}
+.formDesc {font-size: 12px;}
+.value_column .label {font-size: 10px;}
+.range_column .label {font-size: 10px;}
+.value_input {font-size: 10px;}
+.drving_drop {font-size: 10px;}
+.fixed_min, .fixed_max {font-size: 9px;}
+.rangeBox {width: 35.3rem;}
+.value_box {width: 35.3rem;}
+.calc_rightpart {width: 49rem;}
+.chartTitle {font-size: 14px;}
+.estimonchatcon {width: 20rem;}
+.legend-con {margin-top: 10px;}
+.legend-con li {font-size: 10px;}
+.canvas_total_payment span {font-size: 10px;}
+.chartResult, .chartDescription p {font-size: 12px;}
+.footprintBoxt {max-width: 100%;}
+.footprintBoxt p {font-size: 12px;}
+/*---Calculator---*/
+
+/*---Buy-carbon-offset---*/
+.buylist li {width: 50%;}
+.buycarbonoffsetcon {margin-top: 12px;}
+.buycarbonImg {padding-bottom: 165px;}
+.buycarbontitle {font-size: 16px;}
+.buy_price {font-size: 15px;}
+.buycarbonoffsetcon .btn {padding: 10px 20px;}
+.buycarbonoffsetSec {padding: 30px 0 0;}
+/*---Buy-carbon-offset---*/
+
+/*---Total-household-footprint---*/
+.productDetails {padding: 0; margin-top: 20px;}
+.productTitle{font-size: 21px;}
+.product_price {font-size: 18px;}
+.pro_label {font-size: 14px;}
+.choose_option .select_drop {font-size: 12px; background-size: 10px;}
+.approx_sl {font-size: 12px;}
+.approx_sl span {font-size: 14px;}
+.clear_sl {padding: 0 0 0 16px; font-size: 12px;}
+.clear_sl:before {width: 10px; height: 10px; top: 3px;}
+.qty_sl {max-width: 115px;}
+.qty_sl .value_box {height: 37px;}
+.qty_sl .value_box .spin_box {width: 31px; height: 31px;}
+.qty_sl .value_box .spin_box img{max-width: 15px;}
+.qty_sl .value_box .value_input {font-size: 15px; height: 30px;}
+/*---Total-household-footprint---*/
+
+
+/*---Total-household-footprint---*/
+.productNav ul li a.nav-link {font-size:16px; padding: 8px 15px;}
+/*---Total-household-footprint---*/
+
+/*---Contact-us---*/
+.contTitle {font-size: 18px;}
+.conformrow .conformcol .formcol {margin-bottom: 15px;}
+.conformcol .inputformField {padding: 10px 15px;}
+.sendbtn .btn {font-size: 14px; padding: 10px 20px; text-transform: uppercase;}
+
+.contactRight {padding-left: 10px;}
+.contactdetail {font-size: 14px; padding-left: 25px;}
+.contactdetail b {font-size: 16px; margin-bottom: 0;}
+.contactdetail .icon {font-size: 17px;}
+
+.googlemap iframe {min-height: 49rem;}
+/*---Contact-us---*/
+
+}
+
+
+
+@media only screen and (max-width: 568px) {
+
+.bannerSec {padding-bottom: 274px;}
+.bannerDetails {top: 60px;}
+.bannerCaption {padding: 20px 0;}
+.bannerTitle {font-size: 14px; line-height: 1.5;}
+.bannerTitle:before {display: none;}
+.bannerTitle br {display: none;}
+.bannerTitle span {font-size: 28px;}
+.bannerDescription {display: none;}
+.bannerCaption .btn {display: none;}
+
+.fightImg {max-width: 100%;}
+.fightCon {padding: 0; margin-top: 20px;}
+
+.SaveNatureImg {max-width: 100%; border-radius: 5px;}
+.SaveNatureCon { padding-top: 20px; max-width: 100%;}
+
+/*---aboutus---*/
+.planetImg {width: 100%; height: 100%; margin-left: 0;}
+.planetImg:before {display: none;}
+.aboutCon {padding:20px 0 0 0;}
+.secHead .secSubTitle {font-size: 16px;}
+.whyweImg {max-width: 100%;}
+.whyweCon {margin-left:0;}
+.ourmissionSec .secHead {padding-left: 0;}
+.testimonialInner {padding: 0;}
+/*---aboutus---*/
+
+/*---Calculator---*/
+.calc_rightpart {margin-left: 0; margin-top: 20px;}
+/*---Calculator---*/
+
+/*---Contact-us---*/
+.contactRight {padding-left: 0; padding-top: 20px;}
+.contactdetail br{display: none;}
+/*---Contact-us---*/
+
+}
+
+
+/* common css for below screen 479 */
+
+@media only screen and (max-width: 479px) {
+
+.bannerSec {padding-bottom: 374px;}
+.reducInner ul {white-space: nowrap; overflow: auto;}
+.reducInner ul li {width: 60%;}
+.reduceBox {white-space: normal;}
+
+.serviceList li {width: 60%;}
+
+.ltnewsTumb {padding-bottom: 200px;}
+
+.footerTop .btn {padding:10px 8px;}
+
+/*---Package---*/
+.packageSec .serviceList li {width: 100%;}
+.packageSec .serviceList li:last-child{margin-bottom:10px;}
+.packageSec .servicesBox {min-height: inherit;}
+.packageSec .servicesBox .serviceTitle {min-height: inherit;}
+.packageSec .servicesBox .serviceTitle br {display: none;}
+/*---Package---*/
+
+.projectlist li, .projectlist li:nth-child(7) {width: 100%;}
+.projectTitle, .projectlist li:nth-child(7) .projectTitle {height: auto;}
+
+/*---Calculator---*/
+.calc_rightpart {width: 100%;}
+.value_box {width: 32.3rem; height: 32px;}
+.spin_box {width: 26px; height: 26px;}
+.spin_box img {max-width: 12px;}
+.value_input {height: 26px; font-size: 12px;}
+.value_column .label, .range_column .label {font-weight: 600; font-size: 10px;}
+.value_column .label span, .range_column .label span {font-weight: 500; display: block; font-size: 10px;}
+
+.range_column, .rangeBox {width: 100%;}
+.rangesliderMain {max-width: 100%;}
+.range_amount {padding: 12px 0;}
+.range_amount span {font-size: 14px;}
+.rangesliderMain .ui-slider .ui-slider-handle {top: -12px;}
+.range_sl .range_column:nth-child(2) {margin-left: 0; margin-top: 10px;}
+.range_sl {margin-top: 10px;}
+.drving_drop{background-size: 8px;}
+.estimonchatcon {width: 130px;}
+.legend-con {margin-top: 40px;}
+.legend-con li {font-size: 12px;}
+.legend-con li span.chart-legend {top: 3px;}
+.canvas_price {font-size: 30px;}
+.canvas_total_payment {font-size: 18px;}
+.canvas_total_payment span {font-size: 12px;}
+/*---Calculator---*/
+
+/*---Buy-carbon-offset---*/
+.buylist li {width: 100%;}
+.buycarbonImg {padding-bottom: 190px;}
+/*---Buy-carbon-offset---*/
+
+}
+
+
+@media only screen and (max-width: 380px) {
+
+/*---Total-household-footprint---*/
+.productNav ul li a.nav-link {font-size: 14px; padding: 8px 10px;}
+/*---Total-household-footprint---*/
+
+}
+
+
+
+@media only screen and (max-width: 350px) {
+
+.bannerImg img {min-height: 188px;}
+.footerTop .btn {padding: 10px 5px; font-size: 12px;}
+
+/*---Calculator---*/
+.value_box {width: 28.3rem;}
+.estimonchatcon {width: 115px;}
+.legend-con {margin-top: 24px;}
+.mortgagecanvas-con.canvas-con .canvas_total_sl {top: 29%;}
+/*---Calculator---*/
+
+
+
+}
+
+
+/* common css for screen size between 480 to 767 */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
+
+
+/* common css for screen size between 568 to 767 */
+
+@media only screen and (min-width: 568px) and (max-width: 767px) {
+
+/*---footer sec---*/
+.footBox.footCleanImg{margin-top: 40px;text-align: center;}
+/*---footer sec---*/
+
+}
+
+
+@media only screen and (min-width: 567px) and (max-width: 767px) {
+
+
+}
+
+
+/* common css for screen size between 600 to 767 */
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+
+	
+}
+
+
+
+/* common css for screen size between 768 to 1199 */
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+
+
+}
+
+
+/* common css for screen size between 768 to 1023 */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+
+}
+
+/* common css for screen size between 1024 to 1199 */
+
+@media only screen and (min-width: 1200px) and (max-width: 1366px) {
+
+}	
